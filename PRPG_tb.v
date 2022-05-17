@@ -1,8 +1,7 @@
 module PRPG_tb;
   reg clk_tb,clr_tb;
-  wire X_tb;
 
-  PRPG PRPG_tb(.clk(clk_tb),.clr(clr_tb),.X(X_tb));
+  PRPG PRPG_tb(.clk(clk_tb),.clr(clr_tb));
 
   initial begin
     clk_tb=0;
